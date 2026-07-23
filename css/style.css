@@ -487,7 +487,10 @@ a {
 }
 
 .dynamic-image {
-  display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    background: #111;
 }
 
 .video-description {
